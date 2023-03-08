@@ -1,0 +1,30 @@
+.post-container{
+    display: flex;
+    width: 100%;
+    /* background-color: aquamarine; */
+    margin-top: 2%;
+}
+
+.post-container img{
+    display: inline-block;
+    width: 60vw;
+    height: 80vh;
+    position: relative;
+}
+
+.about-post{
+    width: 30vw;
+    height: 60vh;
+    background-color: aquamarine;
+    padding: 1% 2%;
+
+    position: absolute;
+    top: 50%;
+    right: 10%;
+
+   
+}
+
+.about-post p{
+    font-size: 20px;
+}
